@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: react-demo
+  description: React demo
+  tags:
+    - nodejs
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=react-demo'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
