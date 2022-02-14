@@ -1,0 +1,4 @@
+{
+    "tanzu.sourceImage": "harbor-repo.vmware.com/tapsme/supply-chain/react-hello-world-source",
+    "tanzu.localPath": "/Users/mlarge/dev/react-hello-world"
+}
